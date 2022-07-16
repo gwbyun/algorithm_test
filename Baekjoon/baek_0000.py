@@ -6,4 +6,4 @@ Created on Fri Jul 15 17:34:50 2022
 @author: gw
 """
 
-yewon hi
+print('yewon hi')
