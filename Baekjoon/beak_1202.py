@@ -17,3 +17,5 @@ for i in range(k):
     bag.append(a)
 print(graph)
 print(bag)
+graph.sort(reverse = True)
+graph.sort(key=lambda x : -x[1])
