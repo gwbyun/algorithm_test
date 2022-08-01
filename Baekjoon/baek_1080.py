@@ -9,11 +9,11 @@ n,m = map(int,input().split())
 A=[]
 B=[]
 cnt = 0
-for _ in range(n):
-    A.append(list(map(int,input().split())))
-for _ in range(n):
-    B.append(list(map(int,input().split())))
-
+for i in range(n):
+    A.append(list(map(int,input())))
+for i in range(n):
+    B.append(list(map(int,input())))
+#print(A)
 def flip(i,j):
     for x in range(i,i+3):
         for y in range(j,j+3):
